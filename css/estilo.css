@@ -1,0 +1,156 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Roboto&display=swap');
+
+/* BODY */
+body {
+    color: white;
+    background-color: #53555F;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+
+.colorEncabezado {
+    background-color: white;
+}
+
+.enlacesMP {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #719E45;
+    /* margin-left: 20px;  */
+    /* margin: 15px 15px; */
+}
+
+.logo {
+    width: 350px;
+}
+
+/* CAROUSEL */
+.fotosCarousel {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+
+
+/* .cajaInicio {
+    border-top: 2px solid;
+    border-radius: 4px;
+    height: 250px;
+    width: 500px;
+    margin: 50px;
+
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    background-color: #53555F;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    opacity: 70%;
+} */
+
+/* SERVICIOS */
+
+#servicios {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around;
+    align-items: center; */
+    
+    /* Version pantalla grande */
+    /* flex-flow: row wrap;
+    justify-content: space-evenly; */
+    
+
+    
+
+    /* VERSION PANTALLA GRANDE */
+    /* flex-direction: row; */
+}
+
+.cajita {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px;
+    text-align: center;
+}
+
+.cajita p {
+    margin-top: 10px;
+}
+
+.cajaNb { 
+    display: flex;flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+
+    /* Version escritorio */
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+}
+
+.textoNb h2 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.textoNb p {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    
+
+    /* Version escritorio */
+    /* top: 10px;
+    display: inline-block;
+    width: 50%;
+    padding-left: 250px; */
+}
+
+
+
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    padding: 30px 10px;
+
+    border-top:black 2px solid;
+}
+
+.footerTitulo {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.redes {
+    text-align: center;
+}
