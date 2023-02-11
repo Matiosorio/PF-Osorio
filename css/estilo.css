@@ -7,15 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Roboto&display=swap');
 
-/* BODY */
-body {
-    color: white;
-    background-color: #53555F;
-    font-family: 'Lato', sans-serif;
-    line-height: 1.5;
-    margin: 0px;
-}
-
+/* HEADER */
 
 .colorEncabezado {
     background-color: white;
@@ -31,8 +23,21 @@ body {
     /* margin: 15px 15px; */
 }
 
+.enlacesMP:hover {
+    text-decoration: underline;
+}
+
 .logo {
-    width: 350px;
+    width: 50%;
+}
+
+/* BODY */
+body {
+    color: white;
+    background-color: #53555F;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    margin: 0px;
 }
 
 /* CAROUSEL */
@@ -89,6 +94,10 @@ body {
     /* flex-direction: row; */
 }
 
+#nosotros {
+    background-color: #719E45;
+}
+
 .cajita {
     margin: 20px;
     padding: 20px;
@@ -96,6 +105,7 @@ body {
     border-radius: 4px;
     box-shadow: 3px 3px 10px;
     text-align: center;
+    background-color: black;
 }
 
 .cajita p {
@@ -133,7 +143,32 @@ body {
     padding-left: 250px; */
 }
 
+.logoNB {
+    width: 10%;
+}
 
+.cajapresentacion {
+    background-color: #719E45;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .presentacion h1 {
+    text-align: center;
+} */
+
+.presentacion p {
+    text-align: center;
+}
+
+.fotoGrupal{
+    max-width: 100%;
+}
+
+/* FOOTER */
 
 #footer {
     font-family: 'Montserrat', sans-serif;
