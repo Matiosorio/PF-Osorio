@@ -168,6 +168,37 @@ body {
     max-width: 100%;
 }
 
+.cajaGrande {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cajaEntrenadores {
+    /* flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center; */
+    margin-bottom: 10%;
+    /* width: max-content; */
+}
+
+.entrenadores ul li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.bullet {
+    list-style-type: square;
+    display: block;
+}
+
+.fotoProfe {
+    width: 20%;
+    height: 10%;
+}
 /* FOOTER */
 
 #footer {
