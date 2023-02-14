@@ -28,8 +28,7 @@
     font-size: 1rem;
     text-decoration: none;
     color: #719E45;
-    /* margin-left: 20px;  */
-    /* margin: 15px 15px; */
+    
 }
 
 .enlacesMP:hover {
@@ -57,32 +56,6 @@ body {
 }
 
 
-
-/* .cajaInicio {
-    border-top: 2px solid;
-    border-radius: 4px;
-    height: 250px;
-    width: 500px;
-    margin: 50px;
-
-    position: absolute;
-
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-
-    background-color: #53555F;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-
-    opacity: 70%;
-} */
-
 /* SERVICIOS */
 
 .servicios {
@@ -91,20 +64,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center; */
-
-    /* Version pantalla grande */
-    /* flex-flow: row wrap;
-    justify-content: space-evenly; */
-
-
-
-
-    /* VERSION PANTALLA GRANDE */
-    /* flex-direction: row; */
+    
 }
 
 .nosotros {
@@ -113,10 +73,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center; */
 }
 
 .cajita {
@@ -138,13 +94,6 @@ body {
     flex-wrap: wrap;
     background-color: white;
     justify-content: center;
-
-
-    /* Version escritorio */
-    /* margin-top: 50px;
-    margin-bottom: 50px; */
-    /* flex-direction: row; */
-    /* justify-content: space-around; */
 }
 
 .textoNb h2 {
@@ -183,10 +132,10 @@ body {
     margin-top: 50px;
 }
 
-/* .presentacion h1 {
-    text-align: center;
-} */
 
+.presentacion {
+    padding: 30px;
+}
 .presentacion p {
     text-align: center;
 }
@@ -201,7 +150,7 @@ body {
     margin-top: 50px;
     margin-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -209,47 +158,34 @@ body {
 
 .cajaGrande h1 {
     text-transform: uppercase;
+    text-align: center;
 }
 
 .cajaEntrenadores {
     margin-top: 20px;
-    /* flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    justify-content: center; */
-    margin-bottom: 30px;
-    width: max-content;
+    margin-bottom: 30px; 
 }
 
-.entrenadores ul li {
-    margin-left: 0;
-    padding-left: 0;
-}
 
-.bullet {
-    list-style-type: square;
-    display: block;
+.cajaEntrenadores h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
 }
 
 .cajaEntrenadores h4 {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: large;
-}
-
-.cajaEntrenadores h5 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: medium;
+    font-size: 17px;
 }
 
 .cajaEntrenadores p {
     margin-top: 10px;
+    font-size: 1rem;
 }
 
 .fotoProfe {
-    /* width: 40%;
-    height: 20%; */
     width: 80%;
 }
 
@@ -285,7 +221,6 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    /* position:absolute; */
 }
 
 /* GALERIA DE IMAGENES */
@@ -294,9 +229,6 @@ body {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    /* flex-wrap: wrap;
-    align-items: center;
-    justify-content: center; */
     text-align: center;
 }
 
@@ -310,6 +242,11 @@ body {
 
 .imagen img {
     width: 100%;
+    transition: all 300ms;
+}
+
+.imagen img:hover {
+    transform: scale(1.15);
 }
 
 .galeria {
@@ -347,16 +284,7 @@ body {
     align-items: center; */
 }
 
-/* .cojaContacto {
-    width: auto;
-    height: auto;
-    margin: 80px auto;
-    border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background-color: #fbfbfb;
-    padding-left: 30px;
-} */
+
 
 form {
     background-color: #24303c;
@@ -418,7 +346,7 @@ button {
     border-color: #719E45;
     border-style: solid;
     border-radius: 10px;
-    width: 100%;
+    width: 45%;
     /* cursor: pointer; */
 }
 
@@ -451,6 +379,7 @@ span {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 40px;
 }
 
 .tituloFinal h3 {
@@ -529,12 +458,16 @@ footer .redes {
     }
 
     form {
-        width: 90%;
+        width: 85%;
     }
+    
 
-    .fotoProfe {
+    
+
+    /* .fotoProfe {
         width: 80%;
-    }
+    } */
+
 
 }
 
@@ -546,10 +479,29 @@ footer .redes {
         height: 350px;
     }
 
-    
+    .cajaEntrenadores {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .fotoProfe {
+        width: 30%;
+        max-height: 5%;
+    }
+
 
     .galeria {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* form {
+        width: 85%;
+    } */
+
+    button {
+        width: 100%;
     }
 
 }
@@ -558,16 +510,6 @@ footer .redes {
 
 @media (min-width: 1024px) {
 
-    /* #servicios {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        justify-content: space-between;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        justify-content: center;
-    } */
-
     .servicios {
         display: flex;
         flex-direction: row;
@@ -575,9 +517,6 @@ footer .redes {
     }
 
     #cajaNb {
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
         flex-direction: row;
         justify-content: space-around;
     }
@@ -587,23 +526,21 @@ footer .redes {
         flex-direction: row;
         justify-content: space-evenly;
     }
-    .cajaGrande {
-        text-align: left;
-    }
 
-    .cajaEntrenadores {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+    
 
     .fotoProfe {
         width: 30%;
         max-height: 5%;
+        /* align-items: center; */
     }
 
     .galeria {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    button {
+        width: 100%;
     }
 
 }
