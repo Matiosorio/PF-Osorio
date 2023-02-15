@@ -46,7 +46,7 @@ body {
     color: white;
     background-color: #53555F;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.5;
     margin: 0px;
 }
@@ -61,25 +61,17 @@ body {
 /* SERVICIOS */
 
 .servicios {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
 
-.nosotros {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .cajita {
-    margin: 20px;
-    padding: 20px;
+    margin: 0.75rem;
+    padding: 0.75rem;
     border: 1px solid #444444;
     border-radius: 4px;
     box-shadow: 3px 3px 10px;
@@ -87,12 +79,14 @@ body {
     background-color: black;
 }
 
-.cajita p {
-    margin-top: 10px;
+.cajita h2 {
+    text-transform: uppercase;
+    margin: auto;
 }
 
-/******** NOSOTROS*******/
-
+.cajita p {
+    margin: auto;
+}
 
 #seccionNB {
     display: flex;
@@ -102,7 +96,7 @@ body {
 }
 
 .cajaNb {
-    padding: 30px;
+    padding: 1rem;
 }
 
 .cajaNb h2 {
@@ -124,6 +118,8 @@ body {
     margin: auto;
 }
 
+/******** NOSOTROS*******/
+
 .cajapresentacion {
     background-color: #719E45;
     display: flex;
@@ -134,15 +130,29 @@ body {
 }
 
 .cajapresentacion h1 {
-    margin-top: 50px;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 40px;
 }
 
 .presentacion {
     padding: 30px;
 }
 
+.presentacion h2 {
+    margin: auto;
+}
+
 .presentacion p {
     text-align: center;
+    margin: auto;
+}
+
+.nosotros {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .fotoGrupal {
@@ -152,8 +162,6 @@ body {
 /******* ENTRENADORES *******/
 
 .cajaGrande {
-    margin-top: 50px;
-    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,11 +172,13 @@ body {
 .cajaGrande h1 {
     text-transform: uppercase;
     text-align: center;
+    margin-top: 20px;
 }
 
 .cajaEntrenadores {
     margin-top: 20px;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 
@@ -197,6 +207,7 @@ body {
 /******* SEDE *********/
 
 .cajaSede {
+    margin: auto;
     background-image: url(../img/foto-sede.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -207,17 +218,24 @@ body {
     justify-content: center;
     text-align: center;
 }
+.sede {
+    margin: auto;
+}
 
 .sede h1 {
+    margin: auto;
     text-transform: uppercase;
+    padding: 40px;
+}
 
+.sede p {
+    margin: auto;
 }
 
 
 .mapa {
     overflow: hidden;
     padding-bottom: 56.25%;
-    /* position: relative; */
     height: 0;
 }
 
@@ -229,15 +247,12 @@ body {
 
 /******** GALERIA DE IMAGENES *********/
 
-.contenedorGaleria {
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-}
 
-.contenedorGaleria h1 {
+.tituloGaleria {
+    text-align: center;
     text-transform: uppercase;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .imagen {
@@ -254,7 +269,6 @@ body {
 }
 
 .galeria {
-    margin-top: 50px;
     padding: 1.5rem;
     width: 100%;
     margin: auto;
@@ -277,23 +291,13 @@ body {
 
 .cajaContacto h1 {
     text-transform: uppercase;
+    margin: auto;
 }
-
-.formulario {
-    /* margin-top: 50px;
-    margin-bottom: 50px; */
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* justify-content: space-around;
-    align-items: center; */
-}
-
 
 
 form {
     background-color: #24303c;
     width: 90%;
-    /* height: 75%; */
     margin: auto;
     margin-top: 100px;
     padding: 10px 20px;
@@ -329,7 +333,6 @@ textarea {
     margin-top: 10px;
     padding-left: 10px;
     margin-bottom: 20px;
-    /* padding-top: 15px; */
 }
 
 
@@ -403,18 +406,17 @@ footer {
     padding: 15px 5px;
     background-color: #719E45;
     border-top: black 2px solid;
-    /* border-bottom: black 2px solid; */
 }
 
 footer h2 {
+    margin: auto;
     color: white;
     text-transform: uppercase;
     text-align: center;
     font-size: 25px;
-    /* padding-bottom: 20px; */
 }
 
-footer .redes {
+.redes {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -426,10 +428,16 @@ footer .redes {
 .redes a {
     font-weight: bold;
     color: black;
+    margin: auto;
 }
 
 .datos {
+    margin: auto;
     font-size: medium;
+}
+
+.datos p {
+    margin: auto;
 }
 
 .legales {
@@ -437,22 +445,30 @@ footer .redes {
 }
 
 .legales p {
+    margin: auto;
     font-size: small;
     text-align: center;
 }
 
-/**********MEDIA QUERIES**********/
 
 
-/* CSS pantalla 768px o superior */
+/**************MEDIA QUERIES************/
+
+
+/* CSS pantalla 768px o superior hasta 1023px */
 /* MEDIA QUERIES PANTALLA 768px O SUPERIOR */
 
 
 @media (min-width: 768px) {
 
+
+    body {
+        font-size: 17px;
+    }
+
     .servicios {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin: 0.5rem;
+
     }
 
     .logoNb {
@@ -461,8 +477,20 @@ footer .redes {
     }
 
     .nosotros {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin: 1rem;
+    }
+
+    .cajita {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .cajaNb {
+        padding: 1.5rem;
+    }
+
+    .cajapresentacion h1 {
+        margin-top: 30px;
     }
 
     .sede {
@@ -480,9 +508,17 @@ footer .redes {
         text-align: left;
     }
 
+    .cajaGrande h1 {
+        margin-top: 30px;
+    }
+
     .fotoProfe {
         width: 30%;
         max-height: 5%;
+    }
+
+    .tituloGaleria {
+        margin-top: 30px;
     }
 
 
@@ -505,12 +541,15 @@ footer .redes {
 
 @media (min-width: 1024px) {
 
+    body {
+        font-size: 20px;
+    }
+
     .servicios {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin: 1rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     .logoNb {
@@ -519,14 +558,24 @@ footer .redes {
     }
 
     .nosotros {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin: 1rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
 
+    .cajaNb {
+        padding: 1.8rem;
+    }
+
+    .cajapresentacion h1 {
+        margin-top: 40px;
+    }
+
+    .cajaGrande h1 {
+        margin-top: 40px;
+    }
 
     .fotoProfe {
         width: 30%;
@@ -545,6 +594,10 @@ footer .redes {
 
     .galeria {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    .tituloGaleria {
+        margin-top: 40px;
     }
 
     form {
