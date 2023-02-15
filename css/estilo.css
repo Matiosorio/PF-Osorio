@@ -30,7 +30,7 @@
     font-size: 1rem;
     text-decoration: none;
     color: #719E45;
-    
+
 }
 
 .enlacesMP:hover {
@@ -61,17 +61,17 @@ body {
 /* SERVICIOS */
 
 .servicios {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 
 .nosotros {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,18 +116,11 @@ body {
     color: black;
     font-size: 20px;
     text-align: center;
-    
 
-
-    /* Version escritorio */
-    /* top: 10px;
-    display: inline-block;
-    width: 50%;
-    padding-left: 250px; */
 }
 
-.logoNB {
-    max-width: 10%;
+.logoNb {
+    max-width: 30%;
     margin: auto;
 }
 
@@ -147,6 +140,7 @@ body {
 .presentacion {
     padding: 30px;
 }
+
 .presentacion p {
     text-align: center;
 }
@@ -174,7 +168,7 @@ body {
 
 .cajaEntrenadores {
     margin-top: 20px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 
@@ -223,15 +217,14 @@ body {
 .mapa {
     overflow: hidden;
     padding-bottom: 56.25%;
-    position: relative;
+    /* position: relative; */
     height: 0;
 }
 
 .mapa iframe {
     left: 0;
     top: 0;
-    height: 100%;
-    width: 100%;
+    max-width: 50%;
 }
 
 /******** GALERIA DE IMAGENES *********/
@@ -299,7 +292,8 @@ body {
 
 form {
     background-color: #24303c;
-    width: 450px;
+    width: 90%;
+    /* height: 75%; */
     margin: auto;
     margin-top: 100px;
     padding: 10px 20px;
@@ -449,56 +443,34 @@ footer .redes {
 
 /**********MEDIA QUERIES**********/
 
-/* MEDIA QUERIES PANTALLA 320px */
-
-/* @media (max-width: 320px) {
-    form {
-        width: 90%;
-    }
-} */
-
-@media (min-width: 320px) {
-
-    .mapa iframe {
-        width: 200px;
-        height: 150px;
-    }
-
-    .galeria {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-}
 
 /* CSS pantalla 768px o superior */
 /* MEDIA QUERIES PANTALLA 768px O SUPERIOR */
 
-@media (max-width: 768px) {
-    .logoNb {
-        width: 40%;
-        margin: auto;
-    }
-
-    form {
-        width: 85%;
-    }
-    
-
-    
-
-    /* .fotoProfe {
-        width: 80%;
-    } */
-
-
-}
-
 
 @media (min-width: 768px) {
 
+    .servicios {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .logoNb {
+        max-width: 30%;
+        margin: auto;
+    }
+
+    .nosotros {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .sede {
+        margin: auto;
+    }
+
     .mapa iframe {
-        width: 500px;
-        height: 350px;
+        max-width: 60%;
     }
 
     .cajaEntrenadores {
@@ -518,9 +490,9 @@ footer .redes {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    /* form {
-        width: 85%;
-    } */
+    form {
+        width: 60%;
+    }
 
     button {
         width: 100%;
@@ -534,23 +506,27 @@ footer .redes {
 @media (min-width: 1024px) {
 
     .servicios {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
     .logoNb {
-        max-width: 100%;
+        max-width: 40%;
         margin: auto;
     }
 
     .nosotros {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
-    
+
 
     .fotoProfe {
         width: 30%;
@@ -558,19 +534,25 @@ footer .redes {
         /* align-items: center; */
     }
 
+    .sede {
+        margin: auto;
+    }
+
+    .mapa iframe {
+
+        max-width: 100%;
+    }
+
     .galeria {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    form {
+        width: 40%;
     }
 
     button {
         width: 100%;
     }
 
-}
-
-@media (max-width: 1024px) {
-    .logoNb {
-        max-width: 100%;
-        margin: auto;
-    }
 }
