@@ -186,7 +186,7 @@ body {
 .cajaEntrenadores {
     margin-top: 20px;
     margin-bottom: 30px;
-    text-align: left;
+    align-items: center;
 }
 
 
@@ -206,10 +206,13 @@ body {
 .cajaEntrenadores p {
     margin-top: 10px;
     font-size: 1rem;
+    text-align: justify;
 }
 
 .fotoProfe {
     width: 80%;
+    display: block;
+    margin: auto;
 }
 
 /******* SEDE *********/
@@ -589,7 +592,6 @@ footer h2 {
     .fotoProfe {
         width: 30%;
         max-height: 5%;
-        /* align-items: center; */
     }
 
     .sede {
