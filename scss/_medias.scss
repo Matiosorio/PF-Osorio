@@ -1,0 +1,149 @@
+@media (min-width: 768px) {
+    body {
+        font-size: 17px;
+    }
+
+    .servicios {
+        margin: 0.5rem;
+    }
+
+    .logoNb {
+        max-width: 30%;
+        margin: auto;
+    }
+
+    .nosotros {
+        margin: 1rem;
+    }
+
+    .cajita {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .cajaNb {
+        padding: 1.5rem;
+    }
+
+    .cajapresentacion {
+        h1 {
+            margin-top: 30px;
+        }
+    }
+
+    .sede {
+        margin: auto;
+    }
+
+    .mapa {
+        iframe {
+            max-width: 60%;
+        }
+    }
+
+    .cajaEntrenadores {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .cajaGrande {
+        h1 {
+            margin-top: 30px;
+        }
+    }
+
+    .fotoProfe {
+        width: 30%;
+        max-height: 5%;
+    }
+
+    .tituloGaleria {
+        margin-top: 30px;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    form {
+        width: 60%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    .servicios {
+        margin: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .logoNb {
+        max-width: 40%;
+        margin: auto;
+    }
+
+    .nosotros {
+        margin: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .cajaNb {
+        padding: 1.8rem;
+    }
+
+    .cajapresentacion {
+        h1 {
+            margin-top: 40px;
+        }
+    }
+
+    .cajaGrande {
+        h1 {
+            margin-top: 40px;
+        }
+    }
+
+    .fotoProfe {
+        width: 30%;
+        max-height: 5%;
+    }
+
+    .sede {
+        margin: auto;
+    }
+
+    .mapa {
+        iframe {
+            max-width: 100%;
+        }
+    }
+
+    .galeria {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .tituloGaleria {
+        margin-top: 40px;
+    }
+
+    form {
+        width: 40%;
+    }
+
+    button {
+        width: 100%;
+    }
+}

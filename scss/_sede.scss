@@ -1,0 +1,40 @@
+/* SEDE */
+
+.cajaSede {
+    margin: auto;
+    background-image: url(../img/foto-sede.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sede {
+    margin: auto;
+
+    h1 {
+        margin: auto;
+        text-transform: uppercase;
+        padding: 40px;
+    }
+
+    p {
+        margin: auto;
+    }
+}
+
+.mapa {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    height: 0;
+
+    iframe {
+        left: 0;
+        top: 0;
+        max-width: 50%;
+    }
+}

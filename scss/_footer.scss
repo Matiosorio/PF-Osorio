@@ -1,0 +1,61 @@
+// MIXIN
+
+@mixin anclas {
+    font-weight: bold;
+    color: $color_2;
+    margin: auto;
+}
+
+/* FOOTER */
+
+footer {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-family: $font-family_1;
+    line-height: 1.5;
+    padding: 15px 5px;
+    background-color: $background-color_3;
+    border-top: black 2px solid;
+
+    h2 {
+        margin: auto;
+        color: $color_5;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+
+    a {
+        @include anclas;
+    }
+}
+
+.datos {
+    margin: auto;
+    font-size: medium;
+
+    p {
+        margin: auto;
+    }
+}
+
+.legales {
+    padding: 3px;
+
+    p {
+        margin: auto;
+        font-size: small;
+        text-align: center;
+    }
+}
+

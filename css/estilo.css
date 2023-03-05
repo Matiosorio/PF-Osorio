@@ -1,622 +1,511 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-/* FONT FAMILY */
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-
-/* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Lato', sans-serif; */
-/* font-family: 'Roboto Condensed', sans-serif; */
-
-/* HEADER */
-
+body {
+  color: white;
+  background-color: #53555F;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0px;
+} /* HEADER */
 .navbar {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .colorEncabezado {
-    background-color: white;
+  background-color: white;
 }
 
 .enlacesMP {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1rem;
-    text-decoration: none;
-    color: #719E45;
-
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #719E45;
 }
-
 .enlacesMP:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .logo {
-    width: 50%;
-}
-
-/* BODY */
-body {
-    color: white;
-    background-color: #53555F;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 0px;
+  width: 50%;
 }
 
 /* CAROUSEL */
-
 .carousel {
-    width:100%;
-    height:50%;
-  }
-  
+  width: 100%;
+  height: 50%;
+}
 
 .carousel-item img {
-    object-fit: cover;
-    object-position: 50% 50%;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
-
-
 
 /* SERVICIOS */
-
 .servicios {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
 
 .cajita {
-    margin: 0.75rem;
-    padding: 0.75rem;
-    border: 1px solid #444444;
-    border-radius: 4px;
-    box-shadow: 3px 3px 10px;
-    text-align: center;
-    background-color: black;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border: 1px solid #444444;
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px;
+  text-align: center;
+  background-color: black;
 }
-
 .cajita h2 {
-    text-transform: uppercase;
-    margin: auto;
+  text-transform: uppercase;
+  margin: auto;
 }
-
 .cajita p {
-    margin: auto;
+  margin: auto;
 }
 
 #seccionNB {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: center;
 }
 
 .cajaNb {
-    padding: 1rem;
+  padding: 1rem;
 }
-
 .cajaNb h2 {
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    margin-top: 5px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin-top: 5px;
 }
-
 .cajaNb p {
-    color: black;
-    font-size: 20px;
-    text-align: center;
-
+  color: black;
+  font-size: 20px;
+  text-align: center;
 }
 
 .logoNb {
-    max-width: 30%;
-    margin: auto;
+  max-width: 30%;
+  margin: auto;
 }
 
-/******** NOSOTROS*******/
-
+/* NOSOTROS */
 .cajapresentacion {
-    background-color: #719E45;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  background-color: #719E45;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-
 .cajapresentacion h1 {
-    margin: auto;
-    text-transform: uppercase;
-    margin-top: 40px;
+  margin: auto;
+  text-transform: uppercase;
+  margin-top: 40px;
 }
 
 .presentacion {
-    padding: 30px;
+  padding: 30px;
 }
-
 .presentacion h2 {
-    margin: auto;
+  margin: auto;
 }
-
 .presentacion p {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
 .nosotros {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .fotoGrupal {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-/******* ENTRENADORES *******/
-
+/* ENTRENADORES */
 .cajaGrande {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-
 .cajaGrande h1 {
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .cajaEntrenadores {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-items: center;
 }
-
-
 .cajaEntrenadores h3 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
 }
-
 .cajaEntrenadores h4 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
 }
-
 .cajaEntrenadores p {
-    margin-top: 10px;
-    font-size: 1rem;
-    text-align: justify;
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: justify;
 }
 
 .fotoProfe {
-    width: 80%;
-    display: block;
-    margin: auto;
+  width: 80%;
+  display: block;
+  margin: auto;
 }
 
-/******* SEDE *********/
-
+/* SEDE */
 .cajaSede {
-    margin: auto;
-    background-image: url(../img/foto-sede.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  margin: auto;
+  background-image: url(../img/foto-sede.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .sede {
-    margin: auto;
+  margin: auto;
 }
-
 .sede h1 {
-    margin: auto;
-    text-transform: uppercase;
-    padding: 40px;
+  margin: auto;
+  text-transform: uppercase;
+  padding: 40px;
 }
-
 .sede p {
-    margin: auto;
+  margin: auto;
 }
-
 
 .mapa {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  height: 0;
 }
-
 .mapa iframe {
-    left: 0;
-    top: 0;
-    max-width: 50%;
+  left: 0;
+  top: 0;
+  max-width: 50%;
 }
 
-/******** GALERIA DE IMAGENES *********/
-
-
+/* GALERIA */
 .tituloGaleria {
-    text-align: center;
-    text-transform: uppercase;
-    margin: auto;
-    margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .imagen {
-    width: 100%;
+  width: 100%;
 }
-
 .imagen img {
-    width: 100%;
-    transition: all 300ms;
+  width: 100%;
+  transition: all 300ms;
 }
-
 .imagen img:hover {
-    transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .galeria {
-    padding: 1.5rem;
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    column-gap: 1rem;
-    row-gap: 1rem;
+  padding: 1.5rem;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
 
 /* CONTACTO */
-
 .cajaContacto {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-
 .cajaContacto h1 {
-    text-transform: uppercase;
-    margin: auto;
+  text-transform: uppercase;
+  margin: auto;
 }
-
 
 form {
-    background-color: #24303c;
-    width: 90%;
-    margin: auto;
-    margin-top: 100px;
-    padding: 10px 20px;
-    font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 20px;
+  background-color: #24303c;
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px 20px;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 20px;
 }
 
 input {
-    background-color: #fbfbfb;
-    width: 95%;
-    height: 40px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #719E45;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
+  background-color: #fbfbfb;
+  width: 95%;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #719E45;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
-
 
 textarea {
-    background-color: #fbfbfb;
-    width: 95%;
-    height: 150px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #719E45;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
+  background-color: #fbfbfb;
+  width: 95%;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #719E45;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
-
 
 label {
-    display: block;
-    float: center;
+  display: block;
+  float: center;
 }
-
 
 button {
-    height: 45px;
-    padding-left: 5px;
-    padding-right: 5px;
-    box-sizing: border-box;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    text-transform: uppercase;
-    background-color: #719E45;
-    border-color: #719E45;
-    border-style: solid;
-    border-radius: 10px;
-    width: 45%;
-    /* cursor: pointer; */
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  background-color: #719E45;
+  border-color: #719E45;
+  border-style: solid;
+  border-radius: 10px;
+  width: 45%;
 }
-
 button:hover {
-    cursor: pointer;
-    transform: translateY(-3px);
-    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
-
-
 button p {
-    color: #fff;
+  color: #fff;
 }
-
 
 span {
-    color: #719E45;
+  color: #719E45;
 }
 
-
 .aviso {
-    font-size: 13px;
-    color: #0e0e0e;
+  font-size: 13px;
+  color: #0e0e0e;
 }
 
 .tituloFinal {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
 }
-
 .tituloFinal h3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
-
 
 /* FOOTER */
-
 footer {
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    font-family: 'Lato', sans-serif;
-    line-height: 1.5;
-    padding: 15px 5px;
-    background-color: #719E45;
-    border-top: black 2px solid;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  padding: 15px 5px;
+  background-color: #719E45;
+  border-top: black 2px solid;
 }
-
 footer h2 {
-    margin: auto;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 25px;
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
 }
 
 .redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 30px;
 }
-
 .redes a {
-    font-weight: bold;
-    color: black;
-    margin: auto;
+  font-weight: bold;
+  color: black;
+  margin: auto;
 }
 
 .datos {
-    margin: auto;
-    font-size: medium;
+  margin: auto;
+  font-size: medium;
 }
-
 .datos p {
-    margin: auto;
+  margin: auto;
 }
 
 .legales {
-    padding: 3px;
+  padding: 3px;
 }
-
 .legales p {
-    margin: auto;
-    font-size: small;
-    text-align: center;
+  margin: auto;
+  font-size: small;
+  text-align: center;
 }
-
-
-
-/**************MEDIA QUERIES************/
-
-
-/* CSS pantalla 768px o superior hasta 1023px */
-/* MEDIA QUERIES PANTALLA 768px O SUPERIOR */
-
 
 @media (min-width: 768px) {
-
-
-    body {
-        font-size: 17px;
-    }
-
-    .servicios {
-        margin: 0.5rem;
-
-    }
-
-    .logoNb {
-        max-width: 30%;
-        margin: auto;
-    }
-
-    .nosotros {
-        margin: 1rem;
-    }
-
-    .cajita {
-        margin: 1rem;
-        padding: 1rem;
-    }
-
-    .cajaNb {
-        padding: 1.5rem;
-    }
-
-    .cajapresentacion h1 {
-        margin-top: 30px;
-    }
-
-    .sede {
-        margin: auto;
-    }
-
-    .mapa iframe {
-        max-width: 60%;
-    }
-
-    .cajaEntrenadores {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        text-align: left;
-    }
-
-    .cajaGrande h1 {
-        margin-top: 30px;
-    }
-
-    .fotoProfe {
-        width: 30%;
-        max-height: 5%;
-    }
-
-    .tituloGaleria {
-        margin-top: 30px;
-    }
-
-
-    .galeria {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    form {
-        width: 60%;
-    }
-
-    button {
-        width: 100%;
-    }
-
+  body {
+    font-size: 17px;
+  }
+  .servicios {
+    margin: 0.5rem;
+  }
+  .logoNb {
+    max-width: 30%;
+    margin: auto;
+  }
+  .nosotros {
+    margin: 1rem;
+  }
+  .cajita {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .cajaNb {
+    padding: 1.5rem;
+  }
+  .cajapresentacion h1 {
+    margin-top: 30px;
+  }
+  .sede {
+    margin: auto;
+  }
+  .mapa iframe {
+    max-width: 60%;
+  }
+  .cajaEntrenadores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+  .cajaGrande h1 {
+    margin-top: 30px;
+  }
+  .fotoProfe {
+    width: 30%;
+    max-height: 5%;
+  }
+  .tituloGaleria {
+    margin-top: 30px;
+  }
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  form {
+    width: 60%;
+  }
+  button {
+    width: 100%;
+  }
 }
-
-/* CSS pantalla 1024px o superior */
-/* MEDIA QUERIES PARA PANTALLAS 1024px O SUPERIOR */
-
 @media (min-width: 1024px) {
-
-    body {
-        font-size: 20px;
-    }
-
-    .servicios {
-        margin: 1rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .logoNb {
-        max-width: 40%;
-        margin: auto;
-    }
-
-    .nosotros {
-        margin: 1rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-
-    .cajaNb {
-        padding: 1.8rem;
-    }
-
-    .cajapresentacion h1 {
-        margin-top: 40px;
-    }
-
-    .cajaGrande h1 {
-        margin-top: 40px;
-    }
-
-    .fotoProfe {
-        width: 30%;
-        max-height: 5%;
-    }
-
-    .sede {
-        margin: auto;
-    }
-
-    .mapa iframe {
-
-        max-width: 100%;
-    }
-
-    .galeria {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .tituloGaleria {
-        margin-top: 40px;
-    }
-
-    form {
-        width: 40%;
-    }
-
-    button {
-        width: 100%;
-    }
-
+  body {
+    font-size: 20px;
+  }
+  .servicios {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .logoNb {
+    max-width: 40%;
+    margin: auto;
+  }
+  .nosotros {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .cajaNb {
+    padding: 1.8rem;
+  }
+  .cajapresentacion h1 {
+    margin-top: 40px;
+  }
+  .cajaGrande h1 {
+    margin-top: 40px;
+  }
+  .fotoProfe {
+    width: 30%;
+    max-height: 5%;
+  }
+  .sede {
+    margin: auto;
+  }
+  .mapa iframe {
+    max-width: 100%;
+  }
+  .galeria {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .tituloGaleria {
+    margin-top: 40px;
+  }
+  form {
+    width: 40%;
+  }
+  button {
+    width: 100%;
+  }
 }
+
+/*# sourceMappingURL=estilo.css.map */

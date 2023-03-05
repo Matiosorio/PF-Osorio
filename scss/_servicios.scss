@@ -1,0 +1,56 @@
+/* SERVICIOS */
+
+.servicios {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cajita {
+    margin: 0.75rem;
+    padding: 0.75rem;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px;
+    text-align: center;
+    background-color: $background-color_2;
+
+    h2 {
+        text-transform: uppercase;
+        margin: auto;
+    }
+
+    p {
+        margin: auto;
+    }
+}
+
+#seccionNB {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $background-color_1;
+    justify-content: center;
+}
+
+.cajaNb {
+    padding: 1rem;
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        color: $color_2;
+        margin-top: 5px;
+    }
+
+    p {
+        color: $color_2;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+.logoNb {
+    max-width: 30%;
+    margin: auto;
+}
